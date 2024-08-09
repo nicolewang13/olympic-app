@@ -2,42 +2,42 @@ import React, { Component, ChangeEvent, MouseEvent } from "react";
 import { isRecord } from './record';
 
 
-// TODO: When you're ready to get started, you can remove all the example 
+// TODO: When you're ready to get started, you can remove all the example
 //   code below and start with this blank application:
 
 // type WeddingAppState = {
 // }
-// 
+//
 // /** Displays the UI of the Wedding rsvp application. */
 // export class WeddingApp extends Component<{}, WeddingAppState> {
-// 
+//
 //   constructor(props: {}) {
 //     super(props);
-// 
+//
 //     this.state = {};
 //   }
-//   
+//
 //   render = (): JSX.Element => {
 //     return <div></div>;
 //   };
 // }
 
 
-type WeddingAppState = {
+type OlympicAppState = {
   name: string;  // mirror state of name text box
   msg: string;   // message sent from server
 }
 
 
 /** Displays the UI of the Wedding rsvp application. */
-export class WeddingApp extends Component<{}, WeddingAppState> {
+export class OlympicApp extends Component<{}, OlympicAppState> {
 
   constructor(props: {}) {
     super(props);
 
     this.state = {name: "", msg: ""};
   }
-  
+
   render = (): JSX.Element => {
     return (<div>
         <div>
