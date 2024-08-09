@@ -5,11 +5,11 @@ import { isRecord } from './record';
 // TODO: When you're ready to get started, you can remove all the example
 //   code below and start with this blank application:
 
-// type WeddingAppState = {
+// type OlympicAppState = {
 // }
 //
-// /** Displays the UI of the Wedding rsvp application. */
-// export class WeddingApp extends Component<{}, WeddingAppState> {
+// /** Displays the UI of the Olympic rsvp application. */
+// export class OlympicApp extends Component<{}, OlympicAppState> {
 //
 //   constructor(props: {}) {
 //     super(props);
@@ -29,7 +29,7 @@ type OlympicAppState = {
 }
 
 
-/** Displays the UI of the Wedding rsvp application. */
+/** Displays the UI of the Olympic rsvp application. */
 export class OlympicApp extends Component<{}, OlympicAppState> {
 
   constructor(props: {}) {
